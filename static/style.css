@@ -1,0 +1,116 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+    color: #5a4e4e;
+}
+
+h1, h2 {
+    color: #ff69b4; 
+    text-align: center;
+    font-weight: bold;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #ff1493;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffcccb; 
+    color: #5a4e4e;
+}
+
+
+form {
+    font-family: 'Playfair Display', serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffe4e1; 
+    border: 1px solid #ffb6c1; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ff69b4; 
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffb6c1; 
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #ff69b4; 
+    box-shadow: 0px 0px 5px rgba(255, 105, 180, 0.5); 
+}
+
+
+form button {
+    font-family: 'Playfair Display', serif;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff1493; 
+}
+
+
+h3 {
+    color: #ff69b4; 
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 10px auto;
+    background-color: #ffe4e1;
+    border: 1px solid #ffb6c1;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+ul li {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #ffcccb; 
+    border-radius: 5px;
+    text-align: center;
+    color: #5a4e4e;
+    font-weight: bold;
+}
