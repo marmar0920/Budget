@@ -1,1 +1,9 @@
+<h2>Log Expense</h2>
+<form method="post">
+    <label>Amount: $</label><input type="number" step="0.01" name="amount" required><br>
+    <label>Category:</label><input type="text" name="category" required><br>
+    <label>Description:</label><input type="text" name="description"><br>
+    <button type="submit">Submit</button>
+</form>
+<a href="{{ url_for('index') }}">Back to Home</a>
 
