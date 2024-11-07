@@ -1,1 +1,22 @@
-
+<h2>Financial Summary</h2>
+<p>Total Income: ${{ total_income }}</p>
+<p>Total Expenses: ${{ total_expenses }}</p>
+<h3>Expenses by Category:</h3>
+<ul>
+    {% for category, amount in category_expenses.items() %}
+    <li>{{ category }}: ${{ amount }}</li>
+    {% endfor %}
+</ul>
+<h3>Budgets:</h3>
+<ul>
+    {% for category, budget in budgets.items() %}
+    <li>{{ category }}: ${{ budget }}</li>
+    {% endfor %}
+</ul>
+<h3>Savings Goals:</h3>
+<ul>
+    {% for goal, details in savings_goals.items() %}
+    <li>{{ goal }}: ${{ details["saved"] }} of ${{ details["target"] }}</li>
+    {% endfor %}
+</ul>
+<a href="{{ url_for('index') }}">Back to Home</a>
